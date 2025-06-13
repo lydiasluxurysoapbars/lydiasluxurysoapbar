@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lydia's Luxury Soap Bars</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    /* Dropdown styles */
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+
+    .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      text-align: left;
+    }
+
+    .dropdown-content a:hover {
+      background-color: #f1f1f1;
+    }
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+
+    .dropdown:hover .dropbtn {
+      color: #000;
+    }
+  </style>
+</head>
+<body>
+  <header style="background: #cfe9e3; padding: 20px; text-align: center;">
+    <h1>Lydia's Luxury Soap Bars</h1>
+    <p>Gentle. Natural. Glowing.</p>
+  </header>
+
+  <!-- Navigation with Dropdown -->
+  <nav style="text-align: center; margin: 20px 0;">
+    <div class="dropdown">
+      <a class="dropbtn" href="products.html">Products</a>
+      <div class="dropdown-content">
+        <a href="bodybutters.html">Body Butters</a>
+        <a href="products.html">Soaps</a>
+        <a href="bodyoils.html">Body Oils</a>
+      </div>
+    </div> |
+    <a href="index.html">Home</a> |
+    <a href="index.html">Contact Us</a>
+  </nav>
+
+
+<section class="product-grid">
+    <div class="product-card"><img src="charcoalscrub.jpg" alt="Coffee Scrub"><p>Coffee Scrub<br>(small)<br>$30.00</p></div>
+    <div class="product-card"><img src="charcoalscrub.jpg" alt="Coffee Scrub"><p>Coffee Scrub<br>(large)<br>$60.00</p></div>
+  </section>
+  
+  <!-- Footer -->
+  <footer>
+    <p>Follow us on:
+      <a href="https://instagram.com">Instagram</a> |
+      <a href="https://facebook.com">Facebook</a>
+    </p>
+    <p>&copy; 2025 Lydia's Luxury Soap Bars. All rights reserved.</p>
+  </footer>
+  
+  </body>
+  </html>
